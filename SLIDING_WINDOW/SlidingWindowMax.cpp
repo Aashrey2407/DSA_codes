@@ -28,3 +28,5 @@ vector<int> slidingMaximum(const vector<int> &A, int B) {
     }
     return answer;
 }
+
+//alternate approach, can also use max and second max in every window, if max is being removed from window, make second max equal to max
